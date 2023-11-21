@@ -1,0 +1,9 @@
+buenosDias{
+    miVariable es 10 f
+    dato es "Hola" f
+
+    siSucede (miVariable ">" 5) entonces
+        mostrar dato f
+        calcular (miVariable - 5) f
+    chau f
+}buenasNoches
