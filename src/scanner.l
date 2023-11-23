@@ -15,7 +15,7 @@
 
 IDENTIFICADOR [a-z][a-zA-Z0-9]*
 DIGITO [0-9]
-ENTERO {DIGITO}({DIGITO})*
+ENTERO [1-9]({DIGITO})*
 CADENA_CARACTERES   \"([^\"\n])*\"
 
 %%

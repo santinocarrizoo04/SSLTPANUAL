@@ -1,9 +1,9 @@
 buenosDias{
-    miVar1able es 10 f
+    miVar1able es 210 f
     dato es "Hola" f
 
-    siSucede (miVariable ">" 5) entonces
+    siSucede (miVar1able ">" 5) entonces
         mostrar dato f
-        calcular (miVariable - 5) f
+        calcular (miVar1able - 5) f
     chau f
 }buenasNoches
