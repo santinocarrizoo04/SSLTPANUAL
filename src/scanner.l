@@ -13,7 +13,7 @@
 %option noyywrap
 %option yylineno
 
-IDENTIFICADOR [a-z][a-zA-Z]*
+IDENTIFICADOR [a-z][a-zA-Z0-9]*
 DIGITO [0-9]
 ENTERO {DIGITO}({DIGITO})*
 CADENA_CARACTERES   \"([^\"\n])*\"
