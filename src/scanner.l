@@ -72,10 +72,11 @@ void variableValida(char *token){
     int longitud = strlen(token);
 
     if(longitud > 16){
-        yyerror(token);
+        errorLexico();
     }
 }
 
 void errorLexico(){
     printf("\nError lexico: (%s)\n", yytext);
+    exit(-1);
 }
